@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LibAds"
+rootProject.name = "AndroidLibs"
 include(":app")
 include(":ads")
