@@ -36,6 +36,10 @@ android {
 publishing {
     publications {
         create<MavenPublication>("release") {
+            groupId = "com.nampv"
+            artifactId = "ads"
+            version = "1.0"
+
             afterEvaluate {
                 from(components["release"])
             }
